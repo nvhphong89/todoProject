@@ -1,0 +1,181 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	background: #E6DADA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+	background: None;
+    text-align: center;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+h2{
+    text-align: center;
+    padding-top: 80px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+p{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.container{
+	margin: 80px auto;
+	border-radius: 10px;
+	padding: 20px 30px;
+	background: #F7F3F3;  /* fallback for old browsers */
+}
+
+.todo-container{
+	margin: 80px auto;
+	width: 600px;
+}
+
+.completed{
+	text-decoration: line-through;
+}
+
+.fa-plus-square-o{
+	float: right;
+	padding: 5px 10px;
+}
+
+.fa-star-o, .fa-pencil{
+	float: right;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+
+.bg-light{
+    background-color: #274046 !important;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+div .fom-group{
+    padding-bottom: 20px;
+}
+
+.rounded-circle{
+    width: 100px;
+    height: 100px;
+}
+
+.delete{
+	background: red;
+	color: white;
+	width: 0;
+	margin-right: 30px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 12px;
+	transition: 0.2s linear;
+	opacity: 0; /*adjust the transparent of the span background*/
+	border-radius:2px;
+
+}
+
+.todoDetail{
+	background: #edeef0;
+	color: black;
+	width: 600px;
+	height: 0;
+	display: inline-block;
+	text-align: center;
+	opacity: 0;
+	border-radius: 5px;
+}
+
+.todoDetailDisplay{
+	height: 200px;
+	opacity: 1;
+	border-top: .5px solid grey;
+	border-bottom: .5px solid grey;
+}
+
+#addNew{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 30px;
+	background: #E6DADA;
+	border: none;
+	border-radius: 2px;
+	margin:5px 0;
+}
+
+#addNew:focus{
+	background: white;
+	outline: none;
+	border-bottom: 0.1px solid grey;
+}
+
+#regBtn{
+    background: #F9EEEC;
+    color: black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+}
+
+#regBtn:hover{
+    background: #274046;
+    color: white;
+}
+
+#todoMain {
+	background: #274046;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+
+#todoItem{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#todoItem li{
+	background: white;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;  /*adjusting the height of text content in li*/
+	margin: 1px 0;
+    border: 0.2px solid grey;
+    border-radius:2px;
+}
+
+#todoItem li:hover span{
+	width: 40px;
+	opacity: 1;
+}
